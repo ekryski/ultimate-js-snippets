@@ -1,52 +1,109 @@
-The Ultimate Sublime Text 2 JS Snippets
-===================
+# The Ultimate Sublime Text 2 JS Snippets
 
-Sublime Text 2 JavaScript snippets for commonly used functions and design patterns.
+> Sublime Text 2 JavaScript snippets for commonly used functions and design patterns.
 
-## Vanilla Snippets
+## Installation
 
-## Design Pattern Module Definitions
-
-### Object Literal
+### Sublime Text 2 - Package Control
 
 TODO
 
-### Prototypical
+### Mac OS X
 
-TODO
+    git clone git://github.com/ekryski/sublime-js-snippets.git ~/Library/Application Support/Sublime Text 2/Packages/JavaScript
 
-### Module Pattern
+### Linux
 
-TODO
+    git clone git://github.com/ekryski/sublime-js-snippets.git ~/.config/sublime-text-2/Packages/JavaScript
 
-### Revealing Module Pattern
+### Windows
 
-TODO
+    git clone git://github.com/ekryski/sublime-js-snippets.git %userprofile%\AppData\Roaming\Sublime Text 2\Packages\JavaScript
 
-### Singleton
 
-TODO
+## Snippets
 
-### AMD/Require
+### JS Basics
 
-TODO
+* `for` - For Loop
+* `do` - Do While Loop
+* `fori` - For In Loop
+* `fn` - Function
+* `if` - If Statement
+* `ifel` - If Else Statement
+* `ins` - Inspect Object
+* `sti` - Set Interval
+* `log` - Console Log
+* `proto` - Prototype Function
+* `rand` - Random Number
+* `us` - Use Strict
+* `switch` - Switch Statement
+* `sto` - Set Timeout
 
-### CommonJS
+### JS Design Patterns
 
-TODO
+#### AMD
+
+* `amd:def` - AMD Define
+* `amd:req` - AMD Require
+* `amd:conf` - RequireJS AMD Config
+* `amd:single` - AMD Singleton
+
+#### CommonJS
+
+* `exp` - Exports
+* `mexp` - Exports Module
+* `req` - Require Module
+
+#### Vanilla
+
+* `v:class` - Classical Style Pattern
+* `v:extend` - Extends Classical Style Pattern
+* `v:literal` - Object Literal Module Pattern
+* `v:proto` - Prototype Pattern
+
+
+#### jQuery
+
+* `$:plugin` - jQuery Plugin
+
+### JS Testing ([ChaiJS](http://chaijs.com))
+
+#### BDD
+
+* `afta` - Asynchronous After
+* `afts` - Synchronous After
+* `befa` - Asynchronous Before
+* `befs` - Synchronous Before
+* `desc` - Describe
+* `ita` - Asynchronous It
+* `its` - Synchronous It
+
+#### TDD
+
+* `aeql` - Assert Equal
+* `aneql` - Assert Not Equal
+* `afail` - Assert Fail
+* `afalse` - Assert False
+* `atrue` - Assert True
+* `aok` - Assert OK
 
 ### Backbone
 
+#### AMD
+
+* `bb:amd:c` - Backbone AMD Collection
+* `bb:amd:m` - Backbone AMD Model
+* `bb:amd:v` - Backbone AMD View
+* `bb:amd:t` - Backbone AMD View with Template
+
+#### Vanilla
+
 TODO
 
-## Testing Snippets
-
-### Behavior Driven
-
-### Straight Up Assert
+### Underscore
 
 TODO
-
 
 ## Credits
 

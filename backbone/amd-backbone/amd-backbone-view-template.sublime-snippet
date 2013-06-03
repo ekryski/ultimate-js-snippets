@@ -30,7 +30,7 @@
       });
     ]]>
   </content>
-  <tabTrigger>bb:amd:tmp</tabTrigger>
+  <tabTrigger>bb:amd:t</tabTrigger>
   <scope>source.js</scope>
   <description>Backbone AMD View Template</description>
 </snippet>

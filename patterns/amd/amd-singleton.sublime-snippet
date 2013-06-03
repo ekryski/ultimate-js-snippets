@@ -10,7 +10,7 @@
       });
     ]]>
   </content>
-  <tabTrigger>amd:s</tabTrigger>
+  <tabTrigger>amd:single</tabTrigger>
   <scope>source.js</scope>
   <description>AMD Singleton</description>
 </snippet>

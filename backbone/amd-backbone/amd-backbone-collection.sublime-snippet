@@ -17,7 +17,7 @@
       });
     ]]>
   </content>
-  <tabTrigger>bb:amd:co</tabTrigger>
+  <tabTrigger>bb:amd:c</tabTrigger>
   <scope>source.js</scope>
   <description>Backbone AMD Collection</description>
 </snippet>
