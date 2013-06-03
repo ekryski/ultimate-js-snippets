@@ -1,0 +1,15 @@
+<snippet>
+  <content>
+    <![CDATA[
+      after(function(done) {
+        
+        ${0:// body...}
+        done();
+        
+      });
+    ]]>
+  </content>
+  <tabTrigger>afta</tabTrigger>
+  <scope>source.js</scope>
+  <description>BDD After Async</description>
+</snippet>

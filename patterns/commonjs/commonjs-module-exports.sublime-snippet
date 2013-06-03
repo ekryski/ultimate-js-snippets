@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+      module.exports = ${0};
+    ]]>
+  </content>
+  <tabTrigger>mexp</tabTrigger>
+  <scope>source.js</scope>
+  <description>Module Exports</description>
+</snippet>

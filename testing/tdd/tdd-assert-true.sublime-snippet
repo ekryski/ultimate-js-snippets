@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+      assert.isTrue( ${1:expression}, '${0:message}' );
+    ]]>
+  </content>
+  <tabTrigger>atrue</tabTrigger>
+  <scope>source.js</scope>
+  <description>TDD Assert True</description>
+</snippet>

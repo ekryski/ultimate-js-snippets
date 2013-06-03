@@ -1,0 +1,14 @@
+<snippet>
+  <content>
+    <![CDATA[
+      after(function() {
+        
+        ${0:// body...}
+
+      });
+    ]]>
+  </content>
+  <tabTrigger>afts</tabTrigger>
+  <scope>source.js</scope>
+  <description>BDD After Sync</description>
+</snippet>

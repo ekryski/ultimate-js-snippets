@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+      console.log( require('util').inspect(${1:obj}, true, ${2:depth}, true) )${0}
+    ]]>
+  </content>
+  <tabTrigger>ins</tabTrigger>
+  <scope>source.js</scope>
+  <description>Log Inspect</description>
+</snippet>

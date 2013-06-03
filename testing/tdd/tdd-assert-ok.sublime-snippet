@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+      assert.ok( ${1:expression}, '${0:message}' );
+    ]]>
+  </content>
+  <tabTrigger>aok</tabTrigger>
+  <scope>source.js</scope>
+  <description>TDD Assert OK</description>
+</snippet>

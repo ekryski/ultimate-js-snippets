@@ -1,0 +1,15 @@
+<snippet>
+  <content>
+    <![CDATA[
+      before(function(done) {
+        
+        ${0:// body...}
+        done();
+
+      });
+    ]]>
+  </content>
+  <tabTrigger>befa</tabTrigger>
+  <scope>source.js</scope>
+  <description>BDD Before Async</description>
+</snippet>

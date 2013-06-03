@@ -1,0 +1,16 @@
+<snippet>
+  <content>
+    <![CDATA[
+      define(function(){
+        
+        return {
+          ${1:${2:key} : '${3:value}'}${4}
+        };
+
+      });
+    ]]>
+  </content>
+  <tabTrigger>amd:s</tabTrigger>
+  <scope>source.js</scope>
+  <description>AMD Singleton</description>
+</snippet>

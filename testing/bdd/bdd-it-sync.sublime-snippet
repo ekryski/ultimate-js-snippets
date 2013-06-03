@@ -1,0 +1,21 @@
+<snippet>
+  <content>
+    <![CDATA[
+      it('${1:description}', function() {
+        
+        // SETUP
+        ${2:// setup...}
+
+        // TEST
+        ${3:// test...}
+
+        // VERIFY
+        ${0:// verify...}
+
+      });
+    ]]>
+  </content>
+  <tabTrigger>its</tabTrigger>
+  <scope>source.js</scope>
+  <description>BDD It Sync</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+      Math.floor(Math.random() * ${0:number})
+    ]]>
+  </content>
+  <tabTrigger>rand</tabTrigger>
+  <scope>source.js</scope>
+  <description>Random number</description>
+</snippet>

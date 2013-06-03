@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+      assert.fail( ${1:actual}, ${2:expected}, '${0:message}' );
+    ]]>
+  </content>
+  <tabTrigger>afail</tabTrigger>
+  <scope>source.js</scope>
+  <description>TDD Assert Fail</description>
+</snippet>

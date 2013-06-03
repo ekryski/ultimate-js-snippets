@@ -1,0 +1,24 @@
+<snippet>
+  <content>
+    <![CDATA[
+      define([
+        'Backbone'${2}
+      ], function( Backbone${3} ){
+        
+        var ${1:model} = Backbone.Model.extend({
+
+          ${4:default : \{
+            ${5:key} : '${6:value}'${7}
+          \}}
+
+        });
+
+        return ${1:model};
+
+      });
+    ]]>
+  </content>
+  <tabTrigger>bb:amd:m</tabTrigger>
+  <scope>source.js</scope>
+  <description>Backbone AMD Model</description>
+</snippet>

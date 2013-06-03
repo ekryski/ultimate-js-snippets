@@ -1,0 +1,17 @@
+<snippet>
+  <content>
+    <![CDATA[
+      (function(\$, undefined) {
+        \$.fn.${1:widget} = function() {
+          
+          ${0:// body...}
+
+          return this;
+        }
+      })(jQuery);
+    ]]>
+  </content>
+  <tabTrigger>$:plugin</tabTrigger>
+  <scope>source.js</scope>
+  <description>jQuery Plugin</description>
+</snippet>

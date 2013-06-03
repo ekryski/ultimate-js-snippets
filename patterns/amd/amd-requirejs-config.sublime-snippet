@@ -1,0 +1,21 @@
+<snippet>
+  <content>
+    <![CDATA[
+      require.config({
+        ${1:baseUrl: "${2:/js}",}
+          ${3:paths:\{
+              "${4:some}": "${5:some/v1.0}"${6}
+          \},}
+          ${7:shim: \{
+            '${8:foo}': \{
+              ${9:deps: ['${10:dep}'${11}],}
+              exports : '${12:Foo}'
+            \}
+          \}}${19}
+       });
+    ]]>
+  </content>
+  <tabTrigger>amd:conf</tabTrigger>
+  <scope>source.js</scope>
+  <description>RequireJS AMD Config</description>
+</snippet>

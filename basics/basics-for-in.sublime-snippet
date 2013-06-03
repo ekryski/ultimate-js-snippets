@@ -1,0 +1,14 @@
+<snippet>
+  <content>
+    <![CDATA[
+      for ( ${1:prop} in ${2:object} ) {
+        if ( ${3:object}.hasOwnProperty(${4:prop}) ) {
+          ${0:// expression}
+        }
+      }
+    ]]>
+  </content>
+  <tabTrigger>fori</tabTrigger>
+  <scope>source.js</scope>
+  <description>For In Loop</description>
+</snippet>

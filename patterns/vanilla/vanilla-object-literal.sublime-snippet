@@ -1,0 +1,16 @@
+<snippet>
+  <content>
+    <![CDATA[
+      var ${1:Car} = {
+        ${2:drive}: function () {
+          ${3:// body...}
+        }
+      }
+
+      return ${1:Car};
+    ]]>
+  </content>
+  <tabTrigger>v:literal</tabTrigger>
+  <scope>source.js</scope>
+  <description>Object Literal Module Pattern</description>
+</snippet>

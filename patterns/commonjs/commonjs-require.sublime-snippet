@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+      require('${0:package}')
+    ]]>
+  </content>
+  <tabTrigger>req</tabTrigger>
+  <scope>source.js</scope>
+  <description>Module Require</description>
+</snippet>

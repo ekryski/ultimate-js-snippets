@@ -1,0 +1,14 @@
+<snippet>
+  <content>
+    <![CDATA[
+      before(function() {
+        
+        ${0:// body...}
+
+      });
+    ]]>
+  </content>
+  <tabTrigger>befs</tabTrigger>
+  <scope>source.js</scope>
+  <description>BDD Before Sync</description>
+</snippet>
