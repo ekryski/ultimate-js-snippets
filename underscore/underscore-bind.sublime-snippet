@@ -1,13 +1,14 @@
 <snippet>
-	<content><![CDATA[
+	<content>
+  <![CDATA[
 _.bind(function(${1:argument}){
 
 	${3://do something}
 
 }, ${2:this});
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  ]]>
+  </content>
 	<tabTrigger>_b</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.js</scope>
+  <description>Underscore Bind</description>
 </snippet>
