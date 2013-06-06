@@ -1,10 +1,10 @@
 <snippet>
   <content>
-    <![CDATA[
-      setInterval(function() {
-        ${0:// body...}
-      }, ${1:milliseconds});
-    ]]>
+  <![CDATA[
+setInterval(function() {
+  ${0:// body...}
+}, ${1:milliseconds});
+  ]]>
   </content>
   <tabTrigger>sti</tabTrigger>
   <scope>source.js</scope>

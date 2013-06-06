@@ -1,8 +1,8 @@
 <snippet>
   <content>
-    <![CDATA[
-      'use strict'
-    ]]>
+  <![CDATA[
+'use strict'
+  ]]>
   </content>
   <tabTrigger>us</tabTrigger>
   <scope>source.js</scope>
