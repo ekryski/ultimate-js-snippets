@@ -1,12 +1,14 @@
 <snippet>
   <content>
     <![CDATA[
-      before(function(done) {
-        
-        ${0:// body...}
-        done();
+before(function(done) {
+  
+  ${1:// body...}
+  done();
 
-      });
+});
+
+${0}
     ]]>
   </content>
   <tabTrigger>befa</tabTrigger>

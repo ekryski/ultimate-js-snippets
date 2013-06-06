@@ -1,11 +1,13 @@
 <snippet>
   <content>
     <![CDATA[
-      after(function() {
-        
-        ${0:// body...}
+after(function() {
+  
+  ${1:// body...}
 
-      });
+});
+
+${0}
     ]]>
   </content>
   <tabTrigger>afts</tabTrigger>

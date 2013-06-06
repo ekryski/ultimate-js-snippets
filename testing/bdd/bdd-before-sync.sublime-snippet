@@ -1,11 +1,13 @@
 <snippet>
   <content>
     <![CDATA[
-      before(function() {
-        
-        ${0:// body...}
+before(function() {
+  
+  ${1:// body...}
 
-      });
+});
+
+${0}
     ]]>
   </content>
   <tabTrigger>befs</tabTrigger>
