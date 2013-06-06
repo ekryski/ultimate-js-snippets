@@ -1,20 +1,20 @@
 <snippet>
   <content>
-    <![CDATA[
-      var ${1:Car} = (function () {
+  <![CDATA[
+var ${1:Car} = (function () {
 
-          function ${1:Car}() {
-              // constructor...
-          }
+    function ${1:Car}() {
+        // constructor...
+    }
 
-          ${2:${1:Car}.prototype.${3:drive} = function () \{
-              ${4:// body...}
-          \};}
+    ${2:${1:Car}.prototype.${3:drive} = function () \{
+        ${4:// body...}
+    \};}{$0}
 
-          return ${1:Car};
+    return ${1:Car};
 
-      })();
-    ]]>
+})();
+  ]]>
   </content>
   <tabTrigger>v:class</tabTrigger>
   <scope>source.js</scope>

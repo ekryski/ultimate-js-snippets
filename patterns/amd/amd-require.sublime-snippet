@@ -8,6 +8,8 @@ require([
   ${6:// body...}
 
 });
+
+${0}
   ]]>
   </content>
   <tabTrigger>amd:req</tabTrigger>

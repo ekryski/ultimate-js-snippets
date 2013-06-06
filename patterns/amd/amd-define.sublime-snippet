@@ -8,6 +8,8 @@ define(${1:[
   ${6:// body...}
   
 });
+
+${0}
   ]]>
   </content>
   <tabTrigger>amd:def</tabTrigger>

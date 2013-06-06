@@ -1,14 +1,16 @@
 <snippet>
   <content>
-    <![CDATA[
-      var ${1:Car} = {
-        ${2:drive}: function () {
-          ${3:// body...}
-        }
-      }
+  <![CDATA[
+var ${1:Car} = {
+  ${2:drive}: function () {
+    ${3:// body...}
+  }
+}
 
-      return ${1:Car};
-    ]]>
+return ${1:Car};
+
+${0}
+  ]]>
   </content>
   <tabTrigger>v:literal</tabTrigger>
   <scope>source.js</scope>

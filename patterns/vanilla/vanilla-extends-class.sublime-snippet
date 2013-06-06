@@ -1,31 +1,31 @@
 <snippet>
   <content>
-    <![CDATA[
-      //should be in the beginning of its respective scope (or in utils)
-      var __extends = this.__extends || function (d, b) {
-          function __() { this.constructor = d; }
-          __.prototype = b.prototype;
-          d.prototype = new __();
-      };
+  <![CDATA[
+//should be in the beginning of its respective scope (or in utils)
+var __extends = this.__extends || function (d, b) {
+    function __() { this.constructor = d; }
+    __.prototype = b.prototype;
+    d.prototype = new __();
+};
 
-      var ${1:Child} = (function (_super) {
+var ${1:Child} = (function (_super) {
 
-          __extends(${1:Child}, _super);
+    __extends(${1:Child}, _super);
 
-          function ${1:Child}() {
+    function ${1:Child}() {
 
-              _super.apply(this, arguments);
+        _super.apply(this, arguments);
 
-          }
+    }
 
-          ${3:${1:Child}.prototype.${4:method} = function () \{
-              ${5:// body...}
-          \};}
+    ${3:${1:Child}.prototype.${4:method} = function () \{
+        ${5:// body...}
+    \};}${0}
 
-          return ${1:Child};
+    return ${1:Child};
 
-      })(${2:Parent});
-    ]]>
+})(${2:Parent});
+  ]]>
   </content>
   <tabTrigger>v:extend</tabTrigger>
   <scope>source.js</scope>
