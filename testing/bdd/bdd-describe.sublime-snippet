@@ -2,12 +2,10 @@
   <content>
     <![CDATA[
 describe('${1:description}', function() {
-  
+
   ${2:// body...}
 
-});
-
-${0}
+});${0}
     ]]>
   </content>
   <tabTrigger>desc</tabTrigger>

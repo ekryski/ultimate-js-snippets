@@ -2,13 +2,11 @@
   <content>
     <![CDATA[
 before(function(done) {
-  
+
   ${1:// body...}
   done();
 
-});
-
-${0}
+});${0}
     ]]>
   </content>
   <tabTrigger>befa</tabTrigger>

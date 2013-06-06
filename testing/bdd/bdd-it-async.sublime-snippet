@@ -2,7 +2,7 @@
   <content>
     <![CDATA[
 it('${1:description}', function(done) {
-  
+
   // SETUP
   ${2:// setup...}
 
@@ -13,9 +13,7 @@ it('${1:description}', function(done) {
   ${4:// verify...}
   done();
 
-});
-
-${0}
+});${0}
     ]]>
   </content>
   <tabTrigger>ita</tabTrigger>
