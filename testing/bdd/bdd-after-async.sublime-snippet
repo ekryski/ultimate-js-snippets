@@ -8,7 +8,7 @@ after(function(done) {
   
 });
 
-#{0}
+${0}
     ]]>
   </content>
   <tabTrigger>afta</tabTrigger>
