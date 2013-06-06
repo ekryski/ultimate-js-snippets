@@ -10,15 +10,15 @@ TODO
 
 ### Mac OS X
 
-    git clone git://github.com/ekryski/ultimate-js-snippets.git ~/Library/Application Support/Sublime Text 2/Packages/JavaScript
+    git clone git://github.com/ekryski/ultimate-js-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/JavaScript/ultimate-js-snippets
 
 ### Linux
 
-    git clone git://github.com/ekryski/ultimate-js-snippets.git ~/.config/sublime-text-2/Packages/JavaScript
+    git clone git://github.com/ekryski/ultimate-js-snippets.git ~/.config/sublime-text-2/Packages/JavaScript/ultimate-js-snippets
 
 ### Windows
 
-    git clone git://github.com/ekryski/ultimate-js-snippets.git %userprofile%\AppData\Roaming\Sublime Text 2\Packages\JavaScript
+    git clone git://github.com/ekryski/ultimate-js-snippets.git %userprofile%\AppData\Roaming\Sublime Text 2\Packages\JavaScript\ulitmate-js-snippets
 
 
 ## Snippets
