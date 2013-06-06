@@ -1,21 +1,23 @@
 <snippet>
   <content>
-    <![CDATA[
-      define([
-        'Backbone'${2:,
-        '${3:Model}'}${4}
-      ], function( Backbone${5:, ${6:Model}${7}} ){
-        
-        var ${1:collection} = Backbone.Collection.extend({
+  <![CDATA[
+define([
+  'Backbone'${2:,
+  '${3:Model}'}${4}
+], function( Backbone${5:, ${6:Model}${7}} ){
+  
+  var ${1:collection} = Backbone.Collection.extend({
 
-          ${8:model : ${9:Model}}
+    ${8:model : ${9:Model}}
 
-        });
+    ${0}
 
-        return ${1:collection};
+  });
 
-      });
-    ]]>
+  return ${1:collection};
+
+});
+  ]]>
   </content>
   <tabTrigger>bb:amd:c</tabTrigger>
   <scope>source.js</scope>

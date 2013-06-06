@@ -1,34 +1,36 @@
 <snippet>
   <content>
-    <![CDATA[
-      define([
-        'Backbone',
-        'Underscore',
-        'text!${2:templates/}${1:view}.html'${3}
-      ], function( Backbone, ${4:_}, ${5:html}${6} ){
-        
-        var ${1:view} = Backbone.View.extend({
-          
-          ${7:template : ${8:${4:_}.template(${5:html})},}
+  <![CDATA[
+define([
+  'Backbone',
+  'Underscore',
+  'text!${2:templates/}${1:view}.html'${3}
+], function( Backbone, ${4:_}, ${5:html}${6} ){
+  
+  var ${1:view} = Backbone.View.extend({
+    
+    ${7:template : ${8:${4:_}.template(${5:html})},}
 
-          ${9:initialize : function(){
+    ${9:initialize : function(){
 
-          \},}
+    \},}
 
-          ${10:render : function(){
+    ${10:render : function(){
 
-            ${11:this.\$el.html( this.template(${12:this.model.attributes}) );
+      ${11:this.\$el.html( this.template(${12:this.model.attributes}) );
 
-              return this;}
+        return this;}
 
-          \}}
+    \}}
 
-        });
+    ${0}
 
-        return ${1:view};
+  });
 
-      });
-    ]]>
+  return ${1:view};
+
+});
+  ]]>
   </content>
   <tabTrigger>bb:amd:t</tabTrigger>
   <scope>source.js</scope>

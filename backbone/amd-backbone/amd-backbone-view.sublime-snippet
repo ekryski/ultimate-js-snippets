@@ -1,27 +1,29 @@
 <snippet>
   <content>
-    <![CDATA[
-      define([
-        'Backbone',
-        'Underscore'${2}
-      ], function( Backbone, _${3} ){
-        
-        var ${1:view} = Backbone.View.extend({
-          ${6}
-          ${4:initialize : function(){
+  <![CDATA[
+define([
+  'Backbone',
+  'Underscore'${2}
+], function( Backbone, _${3} ){
+  
+  var ${1:view} = Backbone.View.extend({
+    ${6}
+    ${4:initialize : function(){
 
-          \},}
+    \},}
 
-          ${5:render : function(){
+    ${5:render : function(){
 
-          \}}
+    \}}
 
-        });
+    ${0}
 
-        return ${1:view};
+  });
 
-      });
-    ]]>
+  return ${1:view};
+
+});
+  ]]>
   </content>
   <tabTrigger>bb:amd:v</tabTrigger>
   <scope>source.js</scope>
