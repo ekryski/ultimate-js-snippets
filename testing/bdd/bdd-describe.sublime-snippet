@@ -3,7 +3,7 @@
     <![CDATA[
 describe('${1:description}', function() {
   
-  ${1:// body...}
+  ${2:// body...}
 
 });
 
