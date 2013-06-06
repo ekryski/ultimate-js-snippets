@@ -1,14 +1,14 @@
 <snippet>
   <content>
-    <![CDATA[
-      define(${1:[
-        '${2:module}'${3}
-      ],} function( ${4:Module}${5} ){
+  <![CDATA[
+define(${1:[
+  '${2:module}'${3}
+],} function( ${4:Module}${5} ){
 
-        ${6:// body...}
-        
-      });
-    ]]>
+  ${6:// body...}
+  
+});
+  ]]>
   </content>
   <tabTrigger>amd:def</tabTrigger>
   <scope>source.js</scope>

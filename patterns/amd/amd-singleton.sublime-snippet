@@ -1,14 +1,14 @@
 <snippet>
   <content>
-    <![CDATA[
-      define(function(){
-        
-        return {
-          ${1:${2:key} : '${3:value}'}${4}
-        };
+  <![CDATA[
+define(function(){
+  
+  return {
+    ${1:${2:key} : '${3:value}'}${0}
+  };
 
-      });
-    ]]>
+});
+  ]]>
   </content>
   <tabTrigger>amd:single</tabTrigger>
   <scope>source.js</scope>

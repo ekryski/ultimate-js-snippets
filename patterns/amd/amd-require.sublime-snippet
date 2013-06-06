@@ -1,16 +1,16 @@
 <snippet>
   <content>
-    <![CDATA[
-      require([
-        '${2:module}'${3}
-      ], function( ${4:Module}${5} ){
+  <![CDATA[
+require([
+  '${2:module}'${3}
+], function( ${4:Module}${5} ){
 
-        ${6:// body...}
+  ${6:// body...}
 
-      });
-    ]]>
+});
+  ]]>
   </content>
-  <tabTrigger>req</tabTrigger>
+  <tabTrigger>amd:req</tabTrigger>
   <scope>source.js</scope>
   <description>AMD Require</description>
 </snippet>
